@@ -1,0 +1,23 @@
+# Environment & secrets
+.env
+*.pem
+
+# Database files
+*.db
+*.sqlite
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+*.egg-info/
+
+# Data (if large — use Git LFS or exclude)
+data/raw/
+data/processed/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
